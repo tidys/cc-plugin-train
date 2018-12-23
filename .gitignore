@@ -4,7 +4,7 @@ plugin-code/library
 plugin-code/local
 plugin-code/packages/hello-world/node_modules
 *.mov
-plugin-code/assets
+
 plugin-code/settings
 plugin-code/temp
 ~$插件网络课程.pptx

@@ -8,7 +8,8 @@ cocos creator 插件开发系列教程配置代码
 - 介绍插件开发所学的技能树
 - 深入剖析hello-world-creator-plugin
 ### 视频教程
-入门篇的视频教程，简单介绍了hello-creator-plugin
+入门篇的视频教程，简单介绍了hello-creator-plugin    
+
 https://v.youku.com/v_show/id_XMzkxNjAwMjI0OA==.html?spm=a2h3j.8428770.3416059.1
 
 # 基础篇

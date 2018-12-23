@@ -1,5 +1,5 @@
 # cc-plugin-train
-cocos creator 插件开发系列教程配置代码，优酷播单地址：http://list.youku.com/albumlist/show/id_52005571.html
+cocos creator 插件开发系列教程配置代码
 
 优酷播单地址： http://list.youku.com/albumlist/show/id_52005571.html
 

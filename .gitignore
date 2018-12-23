@@ -1,0 +1,6 @@
+plugin-code/.idea
+.DS_Store
+plugin-code/library
+plugin-code/local
+plugin-code/packages/hello-world/node_modules
+*.mov

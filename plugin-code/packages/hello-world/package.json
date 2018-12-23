@@ -1,0 +1,49 @@
+{
+  "name": "hello-world",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/hello-world/open": {
+      "message": "hello-world:open"
+    },
+    "i18n:MAIN_MENU.package.title/hello-world/hello": {
+      "message": "hello-world:say-hello"
+    },
+    "i18n:MAIN_MENU.package.title/hello-world/open-all-panel": {
+      "message": "hello-world:open-all-panel"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "hello-world",
+    "width": 400,
+    "height": 300
+  },
+  "panel.page1": {
+    "main": "panel/page1.js",
+    "type": "dockable",
+    "title": "page1",
+    "width": 400,
+    "height": 300
+  },
+  "panel.page2": {
+    "main": "panel/page2.js",
+    "type": "dockable",
+    "title": "page2",
+    "width": 400,
+    "height": 300
+  },
+  "panel.page3": {
+    "main": "panel/page3.js",
+    "type": "dockable",
+    "title": "page3",
+    "width": 400,
+    "height": 300
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "dock-h",
+  "children": [
+    {
+      "type": "panel",
+      "active": 0,
+      "children": [
+        "hello-world"
+      ]
+    },
+    {
+      "type": "panel",
+      "active": 0,
+      "children": [
+        "hello-world.page1","hello-world.page2"
+      ]
+    }
+  ]
+}

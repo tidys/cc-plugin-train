@@ -41,6 +41,11 @@ Editor.Panel.extend({
                         Editor.remote.Window.main.resetLayout("packages://hello-world/layout.json");
                     }
                 },
+                sceneWalker() {
+                    Editor.Scene.callSceneScript('hello-world', 'get-canvas-children', function (err, length) {
+                        console.log(`get-canvas-children callback :  length - ${length}`);
+                    });
+                }
             }
         });
 

@@ -15,6 +15,16 @@
       "message": "hello-world:open-all-panel"
     }
   },
+  "runtime-resource": {
+    "path": "plugin",
+    "name": "plugin"
+  },
+  "reload": {
+    "ignore": [
+      "plugin/**/*"
+    ]
+  },
+  "scene-script": "scene-walker.js",
   "panel": {
     "main": "panel/index.js",
     "type": "dockable",

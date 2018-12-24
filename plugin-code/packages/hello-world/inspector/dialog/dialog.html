@@ -1,0 +1,68 @@
+<ui-prop v-prop="target.actionNode"></ui-prop>
+<!--<ui-prop v-prop="target.preview"></ui-prop>-->
+<!--<ui-prop v-prop="target.actionType"></ui-prop>-->
+
+
+<ui-prop name="动画">
+    <ui-select class="flex-1" @change="onChangeAction" v-value="curAction">
+        <option v-for="action in actions" v-value="action.option"> {{action.name}}</option>
+    </ui-select>
+</ui-prop>
+
+<div v-if="curAction === actEnum.None">
+
+</div>
+
+<div v-if="curAction !== actEnum.None">
+    <ui-prop name="延迟时间" tooltip="单位:秒" type="number" slidable
+             min="0" step="0.1" v-prop="target.delayTime"></ui-prop>
+    <ui-prop type="number" slidable min="0" step="0.1"
+             v-prop="target.actionTime"></ui-prop>
+    <!--震动-->
+    <div v-if="curAction === actEnum.Shake">
+        <ui-prop name="震动强度" tooltip="">
+            <ui-select class="flex-1" @change="onSetActionShakeStrength" v-value="target.shakeStrength.value">
+                <option value=1> 1级</option>
+                <option value=2> 2级</option>
+                <option value=3> 3级</option>
+                <option value=4> 4级</option>
+                <option value=5> 5级</option>
+            </ui-select>
+        </ui-prop>
+    </div>
+    <!--闪烁-->
+    <div v-if="curAction === actEnum.Blink">
+        <ui-prop type="number" slidable min="1" step="1" v-prop="target.blinkCount">
+        </ui-prop>
+    </div>
+    <!--缩放-->
+    <div v-if="curAction === actEnum.Scale">
+        <ui-prop type="number" slidable step="0.1" v-prop="target.scaleSize">
+        </ui-prop>
+    </div>
+    <!--位移-->
+    <div v-if="curAction === actEnum.Move">
+        <ui-prop name="起始位置">
+            <ui-prop class="fixed-label flex-1"   slidable step="0.1" v-prop="target.moveBeganPosX"></ui-prop>
+            <ui-prop class="fixed-label flex-1"   slidable step="0.1" v-prop="target.moveBeganPosY"></ui-prop>
+        </ui-prop>
+
+        <ui-prop name="结束位置">
+            <ui-prop class="fixed-label flex-1"   slidable step="0.1" v-prop="target.moveEndPosX"></ui-prop>
+            <ui-prop class="fixed-label flex-1"   slidable step="0.1" v-prop="target.moveEndPosY"></ui-prop>
+        </ui-prop>
+        <!--<ui-prop type="cc.Vec2" slidable step="0.1" v-prop="target.moveEndPos"></ui-prop>-->
+    </div>
+    <!--预览-->
+    <div class="layout horizontal center end-justified">
+        <ui-button class="red" @confirm="onBtnClickPreview">预览</ui-button>
+    </div>
+</div>
+
+
+
+
+
+
+
+

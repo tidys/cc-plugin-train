@@ -27,6 +27,8 @@ https://www.bilibili.com/video/av38878569
 - 自定义脚本的属性面板
 - 揭开神秘的widget面板
 
+https://www.bilibili.com/video/av38909562/
+
 # 进阶篇
 - 多面板插件
     - 优化面板布局

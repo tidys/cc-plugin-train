@@ -2,6 +2,7 @@
 cocos creator 插件开发系列教程配置代码   
 cocos论坛地址：https://forum.cocos.com/t/cocos-creator/69105    
 优酷播单地址： http://list.youku.com/albumlist/show/id_52005571.html
+哔哩哔哩地址（推荐，无广告）：https://space.bilibili.com/104272649/video
 
 # 入门篇
 ## 简单了解Creator插件
@@ -10,7 +11,7 @@ cocos论坛地址：https://forum.cocos.com/t/cocos-creator/69105
 ### 视频教程
 入门篇的视频教程，简单介绍了hello-creator-plugin    
 
-https://v.youku.com/v_show/id_XMzkxNjAwMjI0OA==.html?spm=a2h3j.8428770.3416059.1
+https://www.bilibili.com/video/av38878393
 
 # 基础篇
 ## 掌握开发插件的一些基础技能
@@ -19,7 +20,7 @@ https://v.youku.com/v_show/id_XMzkxNjAwMjI0OA==.html?spm=a2h3j.8428770.3416059.1
 - 掌握调试插件的基本方法
 - 在插件中使用npm   
 
-https://v.youku.com/v_show/id_XMzk3NjgwNzcxNg==.html?spm=a2h0j.11185381.listitem_page1.5~A
+https://www.bilibili.com/video/av38878569
 
 # 基础篇-扩展
 ## 扩展自己的组件属性面板
@@ -31,7 +32,7 @@ https://v.youku.com/v_show/id_XMzk3NjgwNzcxNg==.html?spm=a2h0j.11185381.listitem
     - 优化面板布局
 - ipc消息通讯
 
-https://v.youku.com/v_show/id_XMzk3Nzg0NDUwNA==.html?spm=a2h1n.8251843.playList.5~5~A&f=52005571&o=1
+https://www.bilibili.com/video/av38878904
 
 
 # 高级篇
@@ -42,7 +43,7 @@ https://v.youku.com/v_show/id_XMzk3Nzg0NDUwNA==.html?spm=a2h1n.8251843.playList.
 - 自动化二次打包插件:丢弃无用菜单
 - 如何保护自己的插件:混淆插件
 
-
+https://www.bilibili.com/video/av38900725
 
 # 付费篇
 ## 老司机带你玩转Creator
@@ -58,6 +59,7 @@ https://v.youku.com/v_show/id_XMzk3Nzg0NDUwNA==.html?spm=a2h1n.8251843.playList.
 - Creator插件可以达到什么高度?
     - 独家秘方
 
+https://www.bilibili.com/video/av38900759
 
 
 **课程规划不定期修正，免费课程代码保证完全公开，插件小王子有一个梦想，先保密，嘿嘿。。。**

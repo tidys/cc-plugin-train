@@ -1,8 +1,8 @@
 # cc-plugin-train
 cocos creator 插件开发系列教程配置代码   
-cocos论坛地址：https://forum.cocos.com/t/cocos-creator/69105    
-优酷播单地址： http://list.youku.com/albumlist/show/id_52005571.html
-哔哩哔哩地址（推荐，无广告）：https://space.bilibili.com/104272649/video
+cocos论坛地址：https://forum.cocos.com/t/cocos-creator/69105      
+优酷播单地址： http://list.youku.com/albumlist/show/id_52005571.html     
+哔哩哔哩地址（推荐，无广告）：https://space.bilibili.com/104272649/video    
 
 # 入门篇
 ## 简单了解Creator插件

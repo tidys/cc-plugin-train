@@ -6,7 +6,8 @@
   "main": "main.js",
   "main-menu": {
     "i18n:MAIN_MENU.package.title/hello-world/open": {
-      "message": "hello-world:open"
+      "message": "hello-world:open",
+      "del": true
     },
     "i18n:MAIN_MENU.package.title/hello-world/hello": {
       "message": "hello-world:say-hello"
